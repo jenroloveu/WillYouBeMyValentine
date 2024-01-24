@@ -99,6 +99,10 @@ function yes() {
     setTimeout(() => {
       model.style.display = "flex";
     }, 100);
+    const wedate = document.getElementById("wedate");
+    const btns = document.getElementById("btns");
+    btns.style.display = "none";
+    wedate.innerText = "We are dating now. I love you cutie.";
   } else {
     alert("Kuch to Bhao khao cutie. Sidhe yes mat bola karo.");
   }
