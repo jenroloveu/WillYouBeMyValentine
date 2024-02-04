@@ -101,6 +101,7 @@ html {
   display: none;
   z-index: 1;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   background-color: rgba(0, 0, 0, 0.5);
 }
 .audio {
@@ -152,4 +153,17 @@ html {
   width: 100%;
   object-fit: contain;
   mix-blend-mode: multiply;
+}
+
+.f-aps {
+  position: absolute;
+  bottom: 0;
+  animation: slideUp 1s ease-in-out;
+  right: 0;
+  padding: 20px;
+}
+.f-aps img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
 }
